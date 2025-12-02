@@ -1,4 +1,11 @@
 <Solution>
-  <Project Path="Day1/Day1.csproj" />
-  <Project Path="Day2/Day2.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Day1/Day1.csproj" />
+    <Project Path="src/Day2/Day2.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="Day1Tests/Day1Tests.csproj" />
+    <Project Path="Day2Tests/Day2Tests.csproj" />
+    
+  </Folder>
 </Solution>
