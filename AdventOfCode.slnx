@@ -5,6 +5,7 @@
     <Project Path="src/Day3/Day3.csproj" />
     <Project Path="src/Day4/Day4.csproj" />
     <Project Path="src/Day5/Day5.csproj" />
+    <Project Path="src/Day6/Day6.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Day1Tests/Day1Tests.csproj" />
@@ -12,5 +13,6 @@
     <Project Path="tests/Day3Tests/Day3Tests.csproj" />
     <Project Path="tests/Day4Tests/Day4Tests.csproj" />
     <Project Path="tests/Day5Tests/Day5Tests.csproj" />
+    <Project Path="tests/Day6Tests/Day6Tests.csproj" />
   </Folder>
 </Solution>
