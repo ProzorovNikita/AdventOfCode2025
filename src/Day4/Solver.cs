@@ -4,7 +4,7 @@ public static class Solver {
     public static int CountMovable(byte[][] input, bool repeatProcess = false) {
         var previousSum = -1;
         var sum = 0;
-
+        
         var changes = new List<(int, int)>();
         while (sum != previousSum) {
             previousSum = sum;
