@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Day11/Day11.csproj" />
     <Project Path="src/Day1/Day1.csproj" />
     <Project Path="src/Day2/Day2.csproj" />
     <Project Path="src/Day3/Day3.csproj" />
@@ -11,6 +12,7 @@
     <Project Path="src/Day9/Day9.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/Day11Tests/Day11Tests.csproj" />
     <Project Path="tests/Day1Tests/Day1Tests.csproj" />
     <Project Path="tests/Day2Tests/Day2Tests.csproj" />
     <Project Path="tests/Day3Tests/Day3Tests.csproj" />
