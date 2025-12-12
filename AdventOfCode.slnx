@@ -2,6 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/Day11/Day11.csproj" />
     <Project Path="src/Day1/Day1.csproj" />
+    <Project Path="src/Day12/Day12.csproj" />
     <Project Path="src/Day2/Day2.csproj" />
     <Project Path="src/Day3/Day3.csproj" />
     <Project Path="src/Day4/Day4.csproj" />
