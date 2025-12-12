@@ -1,9 +1,12 @@
-﻿using System.Text;
+﻿using System.Collections.Immutable;
+using System.Text;
+
+namespace Day10;
 
 public record MachineInfo {
     public required int FinalBinaryState { get; init; }
-    public required List<int> Buttons { get; init; }
-    public required List<int> Joltages { get; init; }
+    public required ImmutableList<int> Buttons { get; init; }
+    public required ImmutableList<int> Joltages { get; init; }
     public int FinalStateLength { get; set; }
 
     public static string Decode(int number, int length) {

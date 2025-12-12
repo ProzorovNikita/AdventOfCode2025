@@ -1,4 +1,7 @@
-﻿using System.Globalization;
+﻿using System.Collections.Immutable;
+using System.Globalization;
+
+namespace Day10;
 
 public static class Parser {
     public static IEnumerable<MachineInfo> GetInput() {
@@ -26,8 +29,7 @@ public static class Parser {
                 .Select(bs => bs[1..^1]
                     .Split(',')
                     .Select(int.Parse)
-                    .Aggregate(0, (acc, b) => acc + (int)Math.Pow(2, b)))
-                .ToList();
+                    .Aggregate(0, (acc, b) => acc + (int)Math.Pow(2, b)));
 
             var joltages = split[^1][1..^1]
                 .Split(',')
@@ -36,8 +38,8 @@ public static class Parser {
             return new MachineInfo {
                 FinalBinaryState = sum,
                 FinalStateLength = sumLength,
-                Buttons = buttons,
-                Joltages = joltages.ToList(),
+                Buttons = buttons.ToImmutableList(),
+                Joltages = joltages.ToImmutableList(),
             };
         }
     }    
